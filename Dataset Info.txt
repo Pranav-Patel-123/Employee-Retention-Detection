@@ -1,0 +1,51 @@
+Previously used :
+1. IJPE - HR Analytics: Employee Attrition Analysis using Random Forest - 2022
+2. MDPI - Predicting Employee Attrition Using Machine Learning Techniques - 2020
+3. IEEE access - From Big Data to Deep Data to Support People Analytics for Employee Attrition Prediction - 2021
+4. Applied Sciences - Predicting Employee Attrition Using Machine Learning Approaches - 2022
+5. IJRASET - Employee attrition prediction using logistic regression - 2020
+6. International Journal of Data Science and Analytics - Predicting and explaining employee turnover intention - 2022
+
+Initial total columns: 35
+Class balance:
+Yes: 237
+No: 1233
+
+Unnecessary Columns:
+Employee Count (Col No - 9)
+Over18 (Col No - 22)
+StandardHours (Col No - 27)
+Final left with 32 columns
+
+
+Categorical Columns:
+Department, BusinessTravel, EducationField, Gender, JobRole, MaritalStatus, OverTime.
+Total = 7
+
+
+NA Values: None
+
+Imputation Methods: None
+
+Class Imbalance Status: Yes
+Yes values: 237
+No values: 1233
+
+Handling Class Imbalance:
+    1. Random Under Sampling:
+        Result  Yes: 237
+                No : 237
+        File Name: under_sampled.csv
+
+    2. Random Over Sampling:
+        Result  Yes: 1185
+                No : 1233
+        File Name: over_sampled.csv
+
+    3. Ovum.samples over sampling:
+        Result  Yes: 1233
+                No : 1233
+
+    4. Ovum.sample under sampling:
+        Result  Yes: 237
+                No : 237

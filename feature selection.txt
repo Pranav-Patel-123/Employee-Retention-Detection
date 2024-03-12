@@ -1,0 +1,14 @@
+Correlation-based Feature Selection (CFS)
+Chi-Square Test
+Forward Selection
+Backward Elimination
+LASSO (Least Absolute Shrinkage and Selection Operator)
+Tree-based Methods (e.g., Random Forest)
+Recursive Feature Elimination (RFE)
+SelectKBest (from scikit-learn)
+
+
+above given is the code for referance and now write the one same as the above for "Recursive Feature Elimination (RFE)" as feature selection method and also write the complete code with the above mentioned evaluation parameters
+
+
+FN(flase negative) can be compromised

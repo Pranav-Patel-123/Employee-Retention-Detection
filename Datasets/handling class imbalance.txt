@@ -1,0 +1,24 @@
+1.  Under-sampling
+2.  Over-sampling
+3.  SMOTE (Synthetic Minority Over-sampling Technique)
+4.  ROSE (Random Over-Sampling Examples)
+5.  Tomek Links
+6.  Cost-sensitive Learning
+7.  Ensemble Methods
+8.  Threshold Adjustment
+9.  Cluster-Based Over-sampling
+10. ADASYN (Adaptive Synthetic Sampling)
+
+
+
+    1.  Resampling Methods - Under-sampling 
+    2.  Resampling Methods - Over-sampling
+3.  SMOTE (Synthetic Minority Over-sampling Technique)
+4.  NearMiss Under-sampling
+5.  Random Under-sampling
+6.  Random Over-sampling
+7.  Class Weighting in Modeling
+8.  Cost-sensitive Learning
+9.  Ensemble Methods (e.g., Random Forest with balanced class weights)
+10. Using Evaluation Metrics (e.g., AUC-PR instead of AUC-ROC)
+
