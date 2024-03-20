@@ -1,18 +1,24 @@
 # Employee-Retention-Detection
 
 Flow of the Project:
-      1. Dataset obtained from Kaggle.
-      2. Analysed the data and filter the data from the dataset.
-      3. Identify the N/A values if any (if N/A values are present then perform the imputation methods)
-      4. Perform class imbalance handling methods if required.
-      5. Split/Partition the data into Training and Testing Sets.
-      6. Implement the training algorithm.
-      7. (Optional) Use Train Control for the above trainig algorithm.
-      8. Perform hyper-paramater tuning.
-      9. (Optional) Implement feature Selection for more optimised results.
-      10. Predict the results from the testing set.
-      11. Calculate and obtain the model evalution paramters such as Accuracy, precision,....
-      12. Draw the results in tabular format.
+1. Dataset obtained from Kaggle.
+2. Analysed the data and filter the data from the dataset.
+3. Identify the N/A values if any (if N/A values are present then perform the imputation methods)
+4. Perform class imbalance handling methods if required.
+5. Split/Partition the data into Training and Testing Sets.
+6. Implement the training algorithm.
+7. (Optional) Use Train Control for the above trainig algorithm.
+8. Perform hyper-paramater tuning.
+9. (Optional) Implement feature Selection for more optimised results.
+10. Predict the results from the testing set.
+11. Calculate and obtain the model evalution paramters such as Accuracy, precision,....
+12. Draw the results in tabular format.
+
+<html>
+   <body>
+      <br>
+   </body>
+</html>
 
 Class imbalance handling methods used in the project are:
 1. Random over sampling
@@ -21,6 +27,12 @@ Class imbalance handling methods used in the project are:
 4. Ovum under sampling
 5. ROSE
 
+<html>
+   <body>
+      <br>
+   </body>
+</html>
+
 Algorithms Implemented in the project are:
 1. Logistic Regression
 2. Decision Tree
@@ -28,10 +40,22 @@ Algorithms Implemented in the project are:
 4. Random Forest
 5. XGBoost
 
+<html>
+   <body>
+      <br>
+   </body>
+</html>
+
 Dataset/Data Splitting methods used for each datasets are:
 1. 75% training and 25% testing
 2. K-Fold
 3. K-Fold within 75% training and 25% testing
+
+<html>
+   <body>
+      <br>
+   </body>
+</html>
 
 Feature Selection methods implemented for each mentined algorithms are:
 1. Correlation-based Feature Selection (CFS)
@@ -46,7 +70,7 @@ Feature Selection methods implemented for each mentined algorithms are:
 
 <html>
    <body>
-      <h3>Structure of the files</h3>
+      <h3>File Structure</h3>
    </body>
 </html>
 
