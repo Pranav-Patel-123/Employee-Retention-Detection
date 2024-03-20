@@ -6,6 +6,8 @@ Scripts folder contains all the algorithms applied in the above project with the
 
 Results.xlsx contains all the results (parameters: Accuracy, Precision, Specificity and Sensitivity) after applying various algorithms such as logistic regression, decision tree, random forest, SVM and XGBoost
 
+It is important to read the "Dataset Info.txt" file is contains most valueable results drawn from the original dataset and subsequent datasets obtained after class imbalance handling.
+
 # Scripts Folder
 
 This folder contains the folder named as:
@@ -34,6 +36,10 @@ Each Sub-Folder contains the Folders named as:
 4. SVM
 5. XGBoost
 
-These folders are named after the name of the algorithms used in the subsequent R files.
-
-
+These folders are named after the name of the algorithms used in the subsequent R folders/files.
+Futher each folder is sub-foldered into the 3 named as:
+1. 75-25
+2. 75-25 & k fold
+3. k fold
+These are named after the the split techniques used in the subsequent R files.
+Each folder contains 1 file with direct algorithm and 7 feature selection techniques performed on each algorithm.
