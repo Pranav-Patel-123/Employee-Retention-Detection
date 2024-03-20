@@ -10,8 +10,7 @@ It is important to read the "Dataset Info.txt" file is contains most valueable r
 
 <html>
    <body>
-      <h1>Scripts Folder</h1>
-      <hr>
+      <h3>Scripts Folder</h3>
    </body>
 </html>
 # 
@@ -23,11 +22,7 @@ This folder contains the folder named as:
 4. rose_ovum_sample_over_sampled
 
 These are named after the name of class imbalance handling methods.
-<html>
-   <body>
-      <hr>
-   </body>
-</html>
+#
 Q) What is Class imbalance handling ?
 
 -> In simple words Class imbalance handling is the ways to increase or decrease the rows or data so that the output number of 'Y' values of "yes" and "no" become nearly similar to get unbiased results.
@@ -40,11 +35,7 @@ Q) What is Class imbalance handling ?
 Q) How unbiased results ?
 
 -> If the model is trained on the data where the output is maximum number of times "no" then the predicted output for "yes" may be predicted sometimes inaccurate or incorrect. Similarily is when the model is trained on the data where the output is maximum number of times "yes". So, it is recommended to perform class imbalance handling in such cases to get unbiased results.
-<html>
-   <body>
-      <hr>
-   </body>
-</html>
+#
 Coming Back to Scripts Folder Content.......
 
 Each Sub-Folder contains the Folders named as:
