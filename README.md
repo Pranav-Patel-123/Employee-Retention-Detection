@@ -1,18 +1,18 @@
 # Employee-Retention-Detection
 
 Flow of the Project:
-1. Dataset obtained from Kaggle.
-2. Analysed the data and filter the data from the dataset.
-3. Identify the N/A values if any (if N/A values are present then perform the imputation methods)
-4. Perform class imbalance handling methods if required.
-5. Split/Partition the data into Training and Testing Sets.
-6. Implement the training algorithm.
-7. (Optional) Use Train Control for the above trainig algorithm.
-8. Perform hyper-paramater tuning.
-9. (Optional) Implement feature Selection for more optimised results.
-10. Predict the results from the testing set.
-11. Calculate and obtain the model evalution paramters such as Accuracy, precision,....
-12. Draw the results in tabular format.
+      1. Dataset obtained from Kaggle.
+      2. Analysed the data and filter the data from the dataset.
+      3. Identify the N/A values if any (if N/A values are present then perform the imputation methods)
+      4. Perform class imbalance handling methods if required.
+      5. Split/Partition the data into Training and Testing Sets.
+      6. Implement the training algorithm.
+      7. (Optional) Use Train Control for the above trainig algorithm.
+      8. Perform hyper-paramater tuning.
+      9. (Optional) Implement feature Selection for more optimised results.
+      10. Predict the results from the testing set.
+      11. Calculate and obtain the model evalution paramters such as Accuracy, precision,....
+      12. Draw the results in tabular format.
 
 Class imbalance handling methods used in the project are:
 1. Random over sampling
