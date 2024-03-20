@@ -18,17 +18,16 @@ This folder contains the folder named as:
 
 These are named after the name of class imbalance handling methods.
 
-What is Class imbalance handling ?
+Q) What is Class imbalance handling ?
 
 -> In simple words Class imbalance handling is the ways to increase or decrease the rows or data so that the output number of 'Y' values of "yes" and "no" become nearly similar to get unbiased results.
-
-
-
-Why unbiased ?
+<br>
+Q) How unbiased results ?
 
 -> If the model is trained on the data where the output is maximum number of times "no" then the predicted output for "yes" may be predicted sometimes inaccurate or incorrect. Similarily is when the model is trained on the data where the output is maximum number of times "yes". So, it is recommended to perform class imbalance handling in such cases to get unbiased results.
 
-Coming Back to Scripts Folder Content.
+Coming Back to Scripts Folder Content.......
+
 Each Sub-Folder contains the Folders named as:
 1. Decision Tree
 2. Logistic Regression
@@ -37,10 +36,12 @@ Each Sub-Folder contains the Folders named as:
 5. XGBoost
 
 These folders are named after the name of the algorithms used in the subsequent R folders/files.
+
 Futher each folder is sub-foldered into the 3 named as:
 1. 75-25
 2. 75-25 & k fold
 3. k fold
    
 These are named after the the split techniques used in the subsequent R files.
+
 Each folder contains 1 file with direct algorithm and 7 feature selection techniques performed on each algorithm.
