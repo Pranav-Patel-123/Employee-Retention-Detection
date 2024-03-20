@@ -49,3 +49,6 @@ Handling Class Imbalance:
     4. Ovum.sample under sampling:
         Result  Yes: 237
                 No : 237
+
+
+Note: FN(flase negative) paramters of the confusion matirx can be compromised.
