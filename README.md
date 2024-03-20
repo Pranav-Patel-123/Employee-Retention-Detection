@@ -27,9 +27,11 @@ Flow of the Project:
 
 2. Scripts folder contains all the algorithms applied in the above project with the sub-folders (named same as the class imbalance method applied for the sub sequent files).
 
-Results.xlsx contains all the results (parameters: Accuracy, Precision, Specificity and Sensitivity) after applying various algorithms such as logistic regression, decision tree, random forest, SVM and XGBoost
+"Results.xlsx" contains all the results (parameters: Accuracy, Precision, Specificity and Sensitivity) after applying various algorithms such as logistic regression, decision tree, random forest, SVM and XGBoost
 
 It is important to read the "Dataset Info.txt" file is contains most valueable results drawn from the original dataset and subsequent datasets obtained after class imbalance handling.
+
+#
 
 <html>
    <body>
