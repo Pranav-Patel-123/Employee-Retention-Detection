@@ -41,5 +41,6 @@ Futher each folder is sub-foldered into the 3 named as:
 1. 75-25
 2. 75-25 & k fold
 3. k fold
+   
 These are named after the the split techniques used in the subsequent R files.
 Each folder contains 1 file with direct algorithm and 7 feature selection techniques performed on each algorithm.
