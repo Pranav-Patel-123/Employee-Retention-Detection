@@ -6,7 +6,7 @@ Scripts folder contains all the algorithms applied in the above project with the
 
 Results.xlsx contains all the results (parameters: Accuracy, Precision, Specificity and Sensitivity) after applying various algorithms such as logistic regression, decision tree, random forest, SVM and XGBoost
 
-# Scripts
+# Scripts Folder
 
 This folder contains the folder named as:
 1. random_over_sampled
@@ -19,6 +19,8 @@ These are named after the name of class imbalance handling methods.
 What is Class imbalance handling ?
 
 -> In simple words Class imbalance handling is the ways to increase or decrease the rows or data so that the output number of 'Y' values of "yes" and "no" become nearly similar to get unbiased results.
+
+
 
 Why unbiased ?
 
@@ -33,3 +35,5 @@ Each Sub-Folder contains the Folders named as:
 5. XGBoost
 
 These folders are named after the name of the algorithms used in the subsequent R files.
+
+
