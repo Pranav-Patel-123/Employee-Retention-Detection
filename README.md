@@ -14,6 +14,34 @@ Flow of the Project:
 11. Calculate and obtain the model evalution paramters such as Accuracy, precision,....
 12. Draw the results in tabular format.
 
+Class imbalance handling methods used in the project are:
+1. Random over sampling
+2. Random under sampling
+3. Ovum over sampling
+4. Ovum under sampling
+5. ROSE
+
+Algorithms Implemented in the project are:
+1. Logistic Regression
+2. Decision Tree
+3. SVM
+4. Random Forest
+5. XGBoost
+
+Dataset/Data Splitting methods used for each datasets are:
+1. 75% training and 25% testing
+2. K-Fold
+3. K-Fold within 75% training and 25% testing
+
+Feature Selection methods implemented for each mentined algorithms are:
+1. Correlation-based Feature Selection (CFS)
+2. Chi Square test
+3. Forward Selection
+4. Backward Elimination
+5. Least Absolute Shrinkage and Selection Operator (LASSO)
+6. Tree based methods(such as Random forest)
+7. Recursive Feature Elimination (RFE)
+
 #
 
 <html>
