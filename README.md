@@ -8,7 +8,13 @@ Results.xlsx contains all the results (parameters: Accuracy, Precision, Specific
 
 It is important to read the "Dataset Info.txt" file is contains most valueable results drawn from the original dataset and subsequent datasets obtained after class imbalance handling.
 
-# Scripts Folder
+<html>
+   <body>
+      <h1>Scripts Folder</h1>
+      <hr>
+   </body>
+</html>
+# 
 
 This folder contains the folder named as:
 1. random_over_sampled
