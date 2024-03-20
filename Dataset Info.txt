@@ -51,4 +51,4 @@ Handling Class Imbalance:
                 No : 237
 
 
-Note: FN(flase negative) paramters of the confusion matirx can be compromised.
+Note: FP(flase positive) paramters of the confusion matirx can be compromised.
