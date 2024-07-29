@@ -81,7 +81,7 @@ Feature Selection methods implemented for each mentined algorithms are:
 
 1. Over sampled and both sampled folders contains all the algorithms applied in the above project with the sub-folders (named after the algorithm implemented for the sub sequent files).
 
-"Results.xlsx" contains all the results (parameters: Accuracy, Precision, Specificity and Sensitivity) after applying various algorithms such as logistic regression, decision tree, random forest, SVM and XGBoost
+"DetailedReport.docx" and "Detailed Report.pdf" contains all the minor details and results (parameters: Accuracy, Precision, Specificity and Sensitivity) after applying various algorithms (such as logistic regression, decision tree, etc) and feature selection techniques with combination of various data splits.
 
 It is important to read the "Dataset Info.txt" file is contains most valueable results drawn from the original dataset and subsequent datasets obtained after class imbalance handling.
 
