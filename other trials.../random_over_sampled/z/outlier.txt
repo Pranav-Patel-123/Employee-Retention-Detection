@@ -1,0 +1,8 @@
+initial rows: 2418
+box plot: 2418
+density based cleaning: error(only values with attrition == YES remaining)
+distance based cleaning: error(no data remaining)
+inter quartile range: 1185 
+local outlier factor: 1185
+modified zscore: 235
+one class svm: 1120

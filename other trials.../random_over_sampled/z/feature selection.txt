@@ -1,0 +1,51 @@
+Correlation-based Feature Selection (CFS) // same across all the algorithm
+Chi-Square Test // same across all the algorithm
+Forward Selection  // different as it contains for loop enclosed with the algorithm
+Backward Elimination
+LASSO (Least Absolute Shrinkage and Selection Operator) // different for all the algorithm
+Tree-based Methods (e.g., Random Forest)
+Recursive Feature Elimination (RFE)
+(optional)//SelectKBest (from scikit-learn)
+
+
+above given is the code for referance and now write the one same as the above for "Recursive Feature Elimination (RFE)" as feature selection method and also write the complete code with the above mentioned evaluation parameters
+
+FP(flase positive) can be compromised
+
+remove the below columns:
+    emplyeenumber - I
+
+need to shuffle the data before training.
+need to normalise the data also.
+identify the outliers and implement outliers handling methods.
+Visualize the distribution of features and relationships between variables using plots and statistical summaries.
+Visualize the data using histograms, scatter plots, box plots, etc., to understand the distributions and relationships between variables.
+Address inconsistencies and errors in the data: Correct any inconsistencies or errors in the dataset that may affect the analysis.
+
+
+Q. what is hyper parameter tuning.
+Q. what are anomalies.
+
+z.
+Fine-tune model hyperparameters if necessary using techniques like grid search or random search.
+Create new features if necessary by combining existing features, extracting relevant information, or transforming variables.
+
+
+
+(done) 1. shuffle the data before training.
+(done) 2. normalise the data also.
+        Method 1.
+            # Assuming 'data' is your dataset
+            normalized_data <- scale(data)
+        Method 1.
+            library(caret)
+            normalized_data <- normalize(data)
+        Method 1.
+            # Assuming 'data' is your dataset
+            normalized_data <- as.data.frame(lapply(data, function(x) (x - min(x)) / (max(x) - min(x))))
+
+
+(partial) 3. identify the outliers and implement outliers handling methods.
+(done) 4. Visualize the distribution of features and relationships between variables using plots and statistical summaries.
+(done) 5. Visualize the data using histograms, scatter plots, box plots, etc., to understand the distributions and relationships between variables.
+(done) 6. Address inconsistencies and errors in the data: Correct any inconsistencies or errors in the dataset that may affect the analysis.

@@ -1,0 +1,27 @@
+# Load necessary library
+library(ggplot2)
+
+# Create data frame with accuracies for each algorithm and performance metric
+data <- data.frame(
+  Metric = rep(c("Accuracy", "Sensitivity", "Precision", "Specificity"), each = 6),
+  Algorithm = rep(c("Decision Tree", "Random Forest", "KNN", "Logistic Regression", "Naïve Bayes", "SVM"), 4),
+  Value = c(
+    0.723893805, 0.962831858, 0.92920354, 0.784070796, 0.746902655, 0.961061947,
+    0.739776952, 0.945945946, 0.888888889, 0.780068729, 0.841346154, 0.996226415,
+    0.698245614, 0.98245614, 0.98245614, 0.796491228, 0.614035088, 0.926315789,
+    0.709459459, 0.981412639, 0.98, 0.788321168, 0.691876751, 0.93
+  )
+)
+
+# Create the plot
+plot <- ggplot(data, aes(x = Metric, y = Value, group = Algorithm, color = Algorithm)) +
+  geom_line(size = 1) +
+  geom_point(size = 3) +
+  labs(title = "Performance Metrics of Algorithms",
+       x = "Performance Metric",
+       y = "Value") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# Print the plot
+print(plot)
