@@ -9,7 +9,7 @@ Flow of the Project:
 6. Implement the training algorithm.
 7. (Optional) Use Train Control for the above trainig algorithm.
 8. Perform hyper-paramater tuning.
-9. (Optional) Implement feature Selection for more optimised results.
+9. Implement feature Selection for more optimised results.
 10. Predict the results from the testing set.
 11. Calculate and obtain the model evalution paramters such as Accuracy, precision,....
 12. Draw the results in tabular format.
@@ -34,11 +34,12 @@ Class imbalance handling methods used in the project are:
 </html>
 
 Algorithms Implemented in the project are:
-1. Logistic Regression
-2. Decision Tree
-3. SVM
-4. Random Forest
-5. XGBoost
+1. Decision Tree
+2. Logistic Regression
+3. Random Forest
+4. SVM
+5. kNN
+6. Naive Bayes
 
 <html>
    <body>
@@ -48,8 +49,10 @@ Algorithms Implemented in the project are:
 
 Dataset/Data Splitting methods used for each datasets are:
 1. 75% training and 25% testing
-2. K-Fold
-3. K-Fold within 75% training and 25% testing
+2. 80% training and 20% testing
+3. 70% training and 30% testing
+4. K-Fold
+5. K-Fold within 75% training and 25% testing
 
 <html>
    <body>
@@ -59,12 +62,12 @@ Dataset/Data Splitting methods used for each datasets are:
 
 Feature Selection methods implemented for each mentined algorithms are:
 1. Correlation-based Feature Selection (CFS)
-2. Chi Square test
-3. Forward Selection
+2. Information Gain
+3. Random Forest based importance score
 4. Backward Elimination
 5. Least Absolute Shrinkage and Selection Operator (LASSO)
-6. Tree based methods(such as Random forest)
-7. Recursive Feature Elimination (RFE)
+6. Recursive Feature Elimination (RFE)
+7. Chi Square
 
 #
 
@@ -75,9 +78,8 @@ Feature Selection methods implemented for each mentined algorithms are:
 </html>
 
 #
-1. Dataset folder contains all the datasets used in the project.
 
-2. Scripts folder contains all the algorithms applied in the above project with the sub-folders (named same as the class imbalance method applied for the sub sequent files).
+1. Over sampled and both sampled folders contains all the algorithms applied in the above project with the sub-folders (named after the algorithm implemented for the sub sequent files).
 
 "Results.xlsx" contains all the results (parameters: Accuracy, Precision, Specificity and Sensitivity) after applying various algorithms such as logistic regression, decision tree, random forest, SVM and XGBoost
 
@@ -94,32 +96,15 @@ It is important to read the "Dataset Info.txt" file is contains most valueable r
 #
 
 This folder contains the folder named as:
-1. random_over_sampled
-2. random_under_sampled
-3. rose_ovum_sample_over_sampled
-4. rose_ovum_sample_over_sampled
-
-These are named after the name of class imbalance handling methods.
-
-
-Each Sub-Folder contains the Folders named as:
 1. Decision Tree
 2. Logistic Regression
 3. Random Forest
 4. SVM
-5. XGBoost
+5. kNN
+6. Naive Bayes
 
-These folders are named after the name of the algorithms used in the subsequent R folders/files.
-
-Futher each folder is sub-foldered into the 3 named as:
-1. 75-25
-2. 75-25 & k fold
-3. k fold
+These folders contain files named after the name of the feature selction technique used..
    
-These are named after the the split techniques used in the subsequent R files.
-
-Each folder contains 1 file with direct algorithm and 7 feature selection techniques performed on each algorithm.
-
 #
 Q) What is Class imbalance handling ?
 
